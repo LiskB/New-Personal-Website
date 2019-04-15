@@ -1,0 +1,19 @@
+body {
+    color: white;
+}
+
+.full-viewport {
+    height: 100vh;
+}
+
+.image-shadow {
+    box-shadow: inset 0 0 0 1000px rgba(36, 70, 105, 0.74);
+}
+
+.transparent-background {
+    background: rgba(36, 70, 105, 0.90)
+}
+
+.solid-background {
+    background-color: rgba(36, 70, 105, 1)
+}

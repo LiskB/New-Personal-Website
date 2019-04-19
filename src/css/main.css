@@ -102,7 +102,7 @@ li {
 }
 
 .a-inline {
-    color: white;
+    color: white !important;
     text-decoration: underline;
     -webkit-transition: color 0.2s;
     transition: color 0.2s;

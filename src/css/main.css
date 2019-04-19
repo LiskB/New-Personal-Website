@@ -98,6 +98,18 @@ li {
 .a-button:hover {
     color: rgb(228, 75, 101);
     border-color: rgb(228, 75, 101);
+    text-decoration: none;
+}
+
+.a-inline {
+    color: white;
+    text-decoration: underline;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.a-inline:hover {
+    color: rgb(185, 185, 185);
 }
 
 .top-border {

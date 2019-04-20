@@ -118,6 +118,17 @@ li {
     color: rgb(185, 185, 185);
 }
 
+.a-footer {
+    color: rgb(185, 185, 185);
+    text-decoration: underline;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.a-footer:hover {
+    color: white;
+}
+
 .top-border {
     border-top: 5px solid rgb(228, 75, 101);
 }

@@ -7,6 +7,12 @@ html, body {
     font-family: "Roboto", sans-serif;
 }
 
+/*
+.container-fluid{
+    overflow: hidden !important;
+}
+*/
+
 .full-viewport {
     min-height: 100vh;
 }

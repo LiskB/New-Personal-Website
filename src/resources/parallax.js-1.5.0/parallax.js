@@ -92,10 +92,23 @@
 
     if (navigator.userAgent.match(/(iPod|iPhone|iPad)/)) {
       if (this.imageSrc && this.iosFix && !this.$element.is('img')) {
+//        <div class="row"><div class="col-12 p-0"><img class="img-fluid" src="./src/resources/ottawa.jpeg"></div></div>
+        var one = document.createElement("div")
+        one.setAttribute("class", "row");
+        var two = document.createElement("div");
+        two.setAttribute("class", "col-12 p-0");
+        var three = document.createElement("img");
+        three.setAttribute("class", "img-fluid")
+        three.setAttribute("src", this.imageSrc);
+        
+        one.appendChild(two);
+        two.appendChild(three);
+        
         this.$element.css({
-          backgroundImage: 'url(' + this.imageSrc + ')',
-          backgroundSize: 'cover',
-          backgroundPosition: this.position
+//          backgroundImage: 'url(' + this.imageSrc + ')',
+//          backgroundSize: 'cover',
+//          backgroundPosition: this.position
+          backgroundColor: 'white'
         });
       }
       return this;

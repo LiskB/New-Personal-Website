@@ -34,7 +34,11 @@ html, body {
 }
 
 .red-background {
-    background-color: rgb(228, 75, 101);
+    background-color: rgb(187, 69, 89);
+}
+
+.project-icon {
+    font-size: 3.5em;
 }
 
 h1 {
@@ -116,6 +120,18 @@ li {
 
 .a-inline:hover {
     color: rgb(185, 185, 185);
+}
+
+.a-more-info {
+    color: rgb(185, 185, 185) !important;
+    text-decoration: underline !important;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+    cursor: pointer;
+}
+
+.a-more-info:hover {
+    color: white !important;
 }
 
 .a-footer {
